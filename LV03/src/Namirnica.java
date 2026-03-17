@@ -1,5 +1,15 @@
 import java.util.List;
+public String getNaziv() {
+    return naziv;
+}
 
+public String getZemljaPorijekla() {
+    return zemljaPorijekla;
+}
+
+public List<Double> getNutritivneVrijednosti() {
+    return nutritivneVrijednosti;
+}
 public abstract class Namirnica implements IZdravlje {
     protected String naziv;        // za voće i povrće: latinski naziv; za meso: vrsta
     protected String zemljaPorijekla;
