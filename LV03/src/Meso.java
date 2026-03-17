@@ -12,6 +12,7 @@ public class Meso extends Namirnica {
         double suma = 0;
         for(double v : nutritivneVrijednosti)
             suma += v;
+        suma=suma;
         return suma * 1.2; // povećano 20%
     }
 

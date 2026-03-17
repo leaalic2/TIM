@@ -18,4 +18,6 @@ public class Voce extends Namirnica {
     public boolean Zdravlje() {
         return DajBrojKalorija() < 50 && koeficijentZdravlja > 0.75;
     }
+
+    // EJ OTKAD SAM SE ROODIOOOO SRECE NISAM IMAOOOO
 }

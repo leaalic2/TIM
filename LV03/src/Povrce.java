@@ -18,5 +18,7 @@ public class Povrce extends Namirnica {
     public boolean Zdravlje() {
         return DajBrojKalorija() < 100 && koeficijentZdravlja >= 0.5 && koeficijentZdravlja <= 0.7;
     }
+
+    // TIM 4 GRUPA  JE NAJJACIIIII
 }
 
